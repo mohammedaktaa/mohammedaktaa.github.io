@@ -1,0 +1,55 @@
+.demo-header {
+	text-align: center;
+	padding: 80px 0 0;
+}
+
+.demo-header h2 {
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.demo-section .opt {
+	margin-top: -70px;
+	position: relative;
+	display: block;
+	z-index: 1;
+}
+
+.preview-item {
+    display: block;
+    box-shadow: 0 15px 40px #a7a7a73b;
+    border-radius: 25px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.perview-info {
+	font-size: 18px;
+    display: block;
+    padding: 20px 15px;
+    color: #333;
+}
+.spt {
+	padding-top: 220px;
+}
+
+.sdn {
+	display: block;
+}
+.bdn {
+	display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.spt {
+		padding-top: 0;
+	}
+	.sdn {
+		display: none;
+	}
+	.bdn {
+		display: block;
+	}
+}
